@@ -10,6 +10,7 @@ make elements always relative <br>
 **Finger size**
 about 40px <br>
 To fit any size of finger on a tap element 48x48<br>
+```
 a, input, button {
    min-width: 48px; 
    min-height: 48px; 
