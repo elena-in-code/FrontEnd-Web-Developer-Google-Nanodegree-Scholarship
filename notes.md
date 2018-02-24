@@ -1,6 +1,7 @@
 ## Index
 * [Responsive](#responsive)
 * [Media Query](#media-query)
+* [Flexbox](#flexbox)
 
 # Responsive:
 ```
@@ -47,7 +48,7 @@ avoid to use this way because performance:
  @import url("style.css") only screen and (min-width:500px);
  ```
 
- ## Types of media query
+## Types of media query
 
 **min-width**<br>
 based on the browser window, not device<br>
@@ -84,3 +85,12 @@ Greater than 600px wide, the body is blue<br>
     body{background-color:blue;}
 }
  ```
+
+# Flexbox
+
+`display: flex;`
+Makes elements to show in a row, it is the default flex-direction. And they will no wrap (keep them in the same line, no going to the next line), so they will be resize by the size of the browser window<br>
+`flex-wrap: wrap;`
+elements can go to the next line, so they dont need to be squeeze/resize. <br>
+`order:1;`
+added to the css element makes the elements follow the order indicated, and it can change if we decide to in different layouts.<br>
