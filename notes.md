@@ -1,3 +1,6 @@
+## Index
+* [Responsive](https://github.com/elena-in-code/FrontEnd-Web-Developer-Google-Nanodegree-Scholarship/blob/master/notes.md#responsive)
+
 # Responsive:
 ```
 img {
