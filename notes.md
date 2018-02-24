@@ -1,6 +1,6 @@
 ## Index
 * [Responsive](#responsive)
-* [Media Query](#)
+* [Media Query](#media-query)
 
 # Responsive:
 ```
