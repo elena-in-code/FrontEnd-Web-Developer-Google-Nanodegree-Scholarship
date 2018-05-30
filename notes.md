@@ -2,6 +2,7 @@
 * [Responsive](#responsive)
 * [Media Query](#media-query)
 * [Flexbox](#flexbox)
+* [Responsive Patterns](#responsive_patterns)
 
 # Responsive:
 ```
@@ -94,3 +95,28 @@ Makes elements to show in a row, it is the default flex-direction. And they will
 elements can go to the next line, so they dont need to be squeeze/resize. <br>
 `order:1;`
 added to the css element makes the elements follow the order indicated, and it can change if we decide to in different layouts.<br>
+
+
+# Responsive Patterns:
+ **Column drop:** <br>
+  ```
+ .main-container {
+   display: flex;
+   flex-warp: wrap;
+ }
+ ```
+ All the divs inside of the main-container to 100% width.<br>
+then play with media queries to make each divs different size in each screen size <br>
+
+ **Mostly fluid:** <br>
+   ```
+ .main-container {
+   display: flex;
+   flex-warp: wrap;
+ }
+ ```
+ All the divs inside of the main-container to 100% width.<br>
+ the divs inside are different sizes <br>
+ Reached a breaking point we can add `margin-left:auto;` and `margin-right:auto;` so will add margins and no longer expand the divs. <br>
+ example: <br>
+ [Fluid Layouts](https://codepen.io/Elena_in_code/pen/ERaQmG)
