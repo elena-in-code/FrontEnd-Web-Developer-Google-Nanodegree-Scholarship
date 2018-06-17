@@ -3,6 +3,7 @@
 * [Media Query](#media-query)
 * [Flexbox](#flexbox)
 * [Responsive Patterns](#responsive_patterns)
+* [Order](#order)
 
 # Responsive:
 ```
@@ -120,3 +121,7 @@ then play with media queries to make each divs different size in each screen siz
  Reached a breaking point we can add `margin-left:auto;` and `margin-right:auto;` so will add margins and no longer expand the divs. <br>
  example: <br>
  [Fluid Layouts](https://codepen.io/Elena_in_code/pen/ERaQmG)
+ 
+ # Order
+ Set the order that inside the container the different divs will show up, by default all have set "0"
+ so "-1" will ensure that will come first and 1 and above will come after.
